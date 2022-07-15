@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Roboto&display=swap; https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-        <title>Document</title>
+    <title>Document</title>
   </head>
   <body>
     <header class="header">
@@ -19,12 +19,12 @@
       <nav class="header-nav">
         <ul class="header-list">
           <li class="header-list-item">
-            <a href="./index.html" class="header-link-studia">Студия</a>
+            <a href="./index.html" class="header-link">Студия</a>
           </li>
-          <li class="hesder-list-item">
+          <li class="header-list-item">
             <a href="./portfolio.html" class="header-link">Портфолио</a>
           </li>
-          <li class="hesder-list-item">
+          <li class="header-list-item">
             <a href="" class="header-link">Контакты</a>
           </li>
         </ul>
@@ -40,18 +40,26 @@
         </li>
       </ul>
     </header>
-    <h2 class="visually-hidden">menu</h2>
-    <section class="menu">
-     <ul class="menu-list">
-      <li class="menu-item"><button type="button" class="menu-button">Все</button></li>
-      <li class="menu-item"><button type="button" class="menu-button">Веб-сайты</button></li>
-      <li class="menu-item"><button type="button" class="menu-button">Приложения</button></li>
-      <li class="menu-item"><button type="button" class="menu-button">Дизайн</button></li>
-      <li class="menu-item"><button type="button" class="menu-button">Маркетинг</button></li>
-     </ul>
-    </section>
-      <section class="projects">
-        <h2 hidden>Проекты</h2>
+    <main>
+      <section class="menu">
+        <h1 class="visually-hidden">menu</h1>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <button type="button" class="menu-button">Все</button>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-button">Веб-сайты</button>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-button">Приложения</button>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-button">Дизайн</button>
+          </li>
+          <li class="menu-item">
+            <button type="button" class="menu-button">Маркетинг</button>
+          </li>
+        </ul>
         <ul class="projects-list">
           <li class="project-item">
             <a href="#" target="_blank"></a>
@@ -61,8 +69,8 @@
               width="370"
               height="294"
             />
-            <h3 lang="ru" class="projects-title">Технокряк</h3>
-            <p lang="ru" id="websites" class="project-description">Вебсайт</p>
+            <h2 class="projects-title">Технокряк</h2>
+            <p id="websites" class="project-description">Вебсайт</p>
           </li>
           <li class="project-item">
             <img
@@ -71,8 +79,10 @@
               width="370"
               height="294"
             />
-            <h3 lang="ru" class="projects-title">Постер New Orlean vs Golden Star</h3>
-            <p lang="ru" class="project-description">Дизайн</p>
+            <h2 class="projects-title">
+              Постер<span lang="en">New Orlean vs Golden Star</span>
+            </h2>
+            <p class="project-description">Дизайн</p>
           </li>
           <li class="project-item">
             <img
@@ -81,8 +91,10 @@
               width="370"
               height="294"
             />
-            <h3 lang="ru" class="projects-title">Ресторан Seafood</h3>
-            <p lang="ru" class="project-description">Приложение</p>
+            <h2 class="projects-title">
+              Ресторан <span lang="en">Seafood</span>
+            </h2>
+            <p class="project-description">Приложение</p>
           </li>
           <li class="project-item">
             <img
@@ -91,8 +103,8 @@
               width="370"
               height="294"
             />
-            <h3 lang="ru" class="projects-title">Проект Prime</h3>
-            <p lang="ru" class="project-description">Маркетинг</p>
+            <h2 class="projects-title">Проект<span lang="en">Prime</span></h2>
+            <p class="project-description">Маркетинг</p>
           </li>
           <li class="project-item">
             <img
@@ -101,8 +113,8 @@
               width="370"
               height="294"
             />
-            <h3 lang="ru" class="projects-title">Проект Boxes</h3>
-            <p lang="ru" class="project-description">Приложение</p>
+            <h2 class="projects-title">Проект <span lang="en">Boxes</span></h2>
+            <p class="project-description">Приложение</p>
           </li>
           <li class="project-item">
             <img
@@ -111,8 +123,8 @@
               width="370"
               height="294"
             />
-            <h3 lang="ru" class="projects-title">Inspiration has no Borders</h3>
-            <p lang="ru" class="project-description">Веб-сайт</p>
+            <h2 lang="en" class="projects-title">Inspiration has no Borders</h2>
+            <p class="project-description">Веб-сайт</p>
           </li>
           <li class="project-item">
             <img
@@ -121,13 +133,15 @@
               width="370"
               height="294"
             />
-            <h3 lang="ru" class="projects-title">Издание Limited Edition</h3>
-            <p lang="ru" class="project-description">Дизайн</p>
+            <h2 class="projects-title">
+              Издание <span lang="en">Limited Edition</span>
+            </h2>
+            <p class="project-description">Дизайн</p>
           </li>
           <li class="project-item">
             <img src="./images/lab.jpg" alt="label" width="370" height="294" />
-            <h3 lang="ru" class="projects-title">Проект LAB</h3>
-            <p lang="ru" class="project-description">Маркетинг</p>
+            <h2 class="projects-title">Проект <span lang="en">LAB</span></h2>
+            <p class="project-description">Маркетинг</p>
           </li>
           <li class="project-item">
             <img
@@ -136,8 +150,8 @@
               width="370"
               height="294"
             />
-            <h3 lang="ru" class="projects-title">Growing Business</h3>
-            <p lang="ru" class="project-description">Приложение</p>
+            <h2 lang="en" class="projects-title">Growing Business</h2>
+            <p class="project-description">Приложение</p>
           </li>
         </ul>
       </section>
@@ -148,9 +162,7 @@
       >
       <address>
         <ul class="footer-list">
-          <li class="footer-item">
-            <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
-          </li>
+          <li class="footer-item">г. Киев, пр-т Леси Украинки, 26</li>
           <li class="footer-item">
             <a href="tel:+380991111111" class="footer-tel">+38 099 111 11 11</a>
           </li>
