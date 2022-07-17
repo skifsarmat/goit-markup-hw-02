@@ -186,7 +186,7 @@ body {
 }
 
 .our-job {
-  background-color: var(--our-job-bacground);
+  background-color: var(--background-color);
 }
 
 .our-job-title {
@@ -206,7 +206,7 @@ body {
 }
 
 .our-team {
-  background-color: var(--our-team-background);
+  background-color: var(--background-color);
 }
 
 .our-team-title {
